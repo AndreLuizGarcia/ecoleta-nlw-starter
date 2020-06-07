@@ -1,0 +1,28 @@
+{
+  "name": "ecoleta-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreLuizGarcia/ecoleta-nlw-starter.git"
+  },
+  "dependencies": {
+    "express": "ˆ4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "ˆ2.0.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreLuizGarcia/ecoleta-nlw-starter/issues"
+  },
+  "homepage": "https://github.com/AndreLuizGarcia/ecoleta-nlw-starter#readme"
+}
