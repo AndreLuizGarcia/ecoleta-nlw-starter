@@ -10,15 +10,15 @@ nunjucks.configure("src/views", {
 })
 
 server.get("/", (req, res) => {
-  return res.sendFile("index.html", { title: "Cadastre um ponto de coleta" })
+  return res.render("index.html", { title: "Cadastre um ponto de coleta" })
 })
 
 server.get("/create-point", (req, res) => {
-  return res.sendFile("create-point.html")
+  return res.render("create-point.html")
 })
 
 server.get("/search", (req, res) => {
-  return res.sendFile("search-results.html")
+  return res.render("search-results.html")
 })
 
 server.listen(3000)
